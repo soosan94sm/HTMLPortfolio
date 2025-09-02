@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <!-- header section -->
+      <header>
+        <a href="" class="logo">Portfolio</a>
+        
+        <!-- navigation section -->
+        <nav class="navbar">
+          <a href="/index.html" class="active">Home</a>
+          <a href="about.html" class="about">About</a>
+          
+          <a href="/projects.html" class="project">Projects</a
+          ><a href="/contact.html" class="contact">Contact</a>
+        </header></nav>
+        <!-- section -->
+        <section class="home">
+          
+          <div class="home-details">
+            <h1 style="text-align:center;">Contact Us</h1>
+           <br>
+           <section class="contact-section">
+            <!-- form validation -->
+          <form class="contact-form">
+            
+  <label for="name">Name:</label><br>   
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label> <br>  
+  <input type="email" id="email" name="email"placeholder="john123@gmail.com" required><br>   
+  <label for="phone">Phone no:</label>  <br>
+  <input type="tel" id="phone" name="phone" placeholder="123-456-7897"
+            pattern="\d{3}-\d{3}-\d{4}"
+            required><br>   
+<br><label for="gender">Subject:</label>
+ <label for="male">Male</label>
+ <input type="radio" id="male"name="gender" value="male">
+<label for="female">Female</label>
+<input type="radio" id="female"name="gender" value="female">
+<br><br><label for="subject">Subject:</label>
+ 
+  <select id="subject" name="subject" required>
+    <option value="general">Web design</option>
+    <option value="support">Architrcture</option>
+    <option value="feedback">Videography</option>
+  </select><br> 
+ <br> <label for="message">Message:</label> <br>  
+  <textarea id="message" name="message" rows="4" required></textarea><br>
+  <input type="submit" value="Submit"class="submit">
+</form>
+        </section>
+            <div class="download-social">
+              <a href="#" class="btn">DownloadCV</a>
+                <a href="#" ><i class="ri-github-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+          
+            </div>
+            
+          </div>
+         
+          
+        </section>
+         
+      
+    </div>
+  </body>
+</html>
